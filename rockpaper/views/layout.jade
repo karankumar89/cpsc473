@@ -1,0 +1,22 @@
+doctype
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+  body
+    h1 Live Long and Prosper
+    form(method='POST', id='form', name='Form', action='/play/rock') </br>
+    input(type='submit', id='rock', class = 'btn btn-success', value='rock')
+    br
+    input(type='submit', class = 'btn btn-success', value='paper')
+    br
+    input(type='submit', class = 'btn btn-success', value='scissor')
+    br
+    input(type='submit', class = 'btn btn-success', value='lizard')
+    br
+    input(type='submit', class = 'btn btn-success', value='spock')
+    br
+    div(id='result')
+  script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+  script(src="/javascripts/function.js")
